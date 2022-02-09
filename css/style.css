@@ -282,7 +282,7 @@ nav:after{
 
 .about{
     width: 100%;
-    height: 600px;
+    height: 400px;
     background-color: #161922;
     display: flex;
     justify-content: center;
@@ -294,8 +294,8 @@ nav:after{
 }
 
 .about .content-about img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     max-width: 100%;
 }
 
@@ -452,7 +452,7 @@ nav:after{
     border-radius: 0.5rem;
     overflow: hidden;
     width: 300px;
-    height: 460px;
+    height: 480px;
     margin: 10px;
     border: 5px;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
@@ -517,29 +517,34 @@ nav:after{
 
 .packages .box-container .box-card .content h3{
     font-size: 25px;
-    margin-top: -50px;
+    margin-top: -20px;
     color:#333;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .packages .box-container .box-card .content p{
     font-size: 16px;
     color:#666;
-    bottom: 10px;
-    padding: 5px;
+    bottom: 15px;
+    padding: 15px;
 }
 .packages .box-container .box-card .content h3 i{
     color: #3381F3;
 }
 
 .packages .box-container .box-card .content .stars i{
-  font-size: 18px;
-  color: #3381F3;
+    font-size: 18px;
+    color: #3381F3;
+    padding-left: 20px;
+    margin: -10px;
 }
 
 .packages .box-container .box-card .content .price{
   font-size: 18px;
   color:#333;
-  padding-top: 10px;
+  padding-top: 8px;
+  padding-left: 10px;
 }
 
 .packages .box-container .box-card .content .price span{
@@ -575,8 +580,9 @@ nav:after{
     background-color: #3381F3;
     border-color: #3381F3;
     color: #FFF;
-    bottom: -17px;
-    padding: 6px 18px;
+    bottom: -5px;
+    left: 15px;
+    padding: 8px 20px;
 }
 
 .btn-card:hover{
